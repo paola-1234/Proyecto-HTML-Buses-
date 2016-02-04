@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Horari autobusos Granollers</title>
+		<!-- Magali Crespo, Oscar Latorre, Paola Pérez--> 
+	</head>
+	<body>
+		<form method="GET" action="index.php">
+			<p>Tria la parada que vols veure:</p>
+			L&iacute;nia: 
+                <select name="busline">
+                    <option value="0">Tria una l&iacute;nia</option>
+                    <option value="Can Gili - Hospital - La Torreta">Can Gili - Hospital - La Torreta</option>
+                    <option value="Can Bassa - Can Mònic - Bellavista">Can Bassa - Can Mònic - Bellavista</option>
+                    <option value="Can Bassa - Can Mònic">Can Bassa - Can Mònic</option>
+                    <option value="Can Bassa - Bellavista">Can Bassa - Bellavista</option>
+                    <option value="Plaça Europa - Estació de França">Plaça Europa - Estació de França</option>
+                </select>
+            <br />
+			Parada (1,2,...): <input type="text" name="stop_number" />
+			<br />
+            <input type="submit" value="Mostra" />
+		</form>
+	</body>
+</html>
